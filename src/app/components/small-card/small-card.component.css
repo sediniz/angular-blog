@@ -1,10 +1,14 @@
 .container__small-card{
     margin-bottom: 15px;
-    width: 700px;
 }
 .container__small-card-content{
     display: flex;
     flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borda fina e clara */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1px;
 }
 .small-card___photo >img{
     width: 200px;
@@ -15,6 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .container__small-card-separator{
     margin-top: 10px;

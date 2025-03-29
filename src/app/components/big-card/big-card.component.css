@@ -1,6 +1,6 @@
 .container__big-card{
     width: 400px;
-    height: 600px;
+    height: 510px;
 
     display: flex;
     flex-direction: column;
@@ -8,6 +8,10 @@
     justify-content: flex-start;
     margin-left: 10px;
     margin-right: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borda fina e clara */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1px;
 
 }
 .big-card__title > h1{

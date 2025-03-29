@@ -1,8 +1,14 @@
 .container__menu-bar > ul{
     display: flex;
     flex-direction: row;
+    
 }
 .container__menu-bar > ul> li{
+    font-family: Arial Narrow;
     margin-right: 20px;
     list-style: none;
+
+    align-items: flex-center;
+    justify-content: flex-center;
+    margin-left: 10px;
 }
